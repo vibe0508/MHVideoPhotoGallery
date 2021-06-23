@@ -49,7 +49,6 @@ extern UIImage *MHTemplateImage(NSString *imageName);
 extern UIImage *MHDefaultImageForFrame(CGRect frame);
 extern UIImage  *MHGalleryImage(NSString *imageName);
 
-extern UIView  *MHStatusBar(void);
 extern BOOL     MHShouldShowStatusBar(void);
 
 extern NSString *const MHYoutubeChannel;

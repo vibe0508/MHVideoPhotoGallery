@@ -284,8 +284,6 @@ CGRect MakeRectWithAspectRatioInsideRect(CGSize size, CGRect rect) {
         }
         
         [UIView animateWithDuration:0.3 animations:^{
-            MHStatusBar().alpha = MHShouldShowStatusBar() ? 1 : 0;
-            
             self.cellImageSnapshot.clipsToBounds = self.transitionImageView.clipsToBounds;
             self.cellImageSnapshot.layer.cornerRadius = self.transitionImageView.layer.cornerRadius;
             

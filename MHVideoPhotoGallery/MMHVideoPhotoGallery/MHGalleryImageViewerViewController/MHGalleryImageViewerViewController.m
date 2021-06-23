@@ -970,7 +970,6 @@ static NSString* miniViewCellIdentifier = @"previewCell";
                 }
                 
                 if (progressY > 0.35 || velocityY >700) {
-                    MHStatusBar().alpha = MHShouldShowStatusBar() ? 1 : 0;
                     [self.interactiveTransition finishInteractiveTransition];
                 }else {
                     [self setNeedsStatusBarAppearanceUpdate];
@@ -1621,7 +1620,6 @@ static NSString* miniViewCellIdentifier = @"previewCell";
     if (!MHShouldShowStatusBar()) {
         alpha = 0;
     }
-    MHStatusBar().alpha = alpha;
 }
 
 -(void)handelImageTap:(UIGestureRecognizer *)gestureRecognizer{

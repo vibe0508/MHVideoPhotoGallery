@@ -28,7 +28,6 @@
         imageViewer = toViewController.viewControllers.lastObject;
         toViewController.navigationBar.hidden = YES;
         imageViewer.toolbar.alpha = 0;
-        MHStatusBar().alpha =0;
         imageViewer.view.backgroundColor = [toViewController.UICustomization MHGalleryBackgroundColorForViewMode:toViewController.presentationStyle];
     }
     
